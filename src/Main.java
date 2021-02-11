@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println(a + " + " + b + " = " + r);
 
-        double r2 = multiply(a, b);
+        double r2 = subtract(a, b);
         System.out.println(a + " * " + b + " = " + r2);
     }
 
@@ -15,7 +15,7 @@ public class Main {
         return  a + b;
     }
 
-    public static double multiply (double a, double b) {
-        return  a * b;
+    public static double subtract (double a, double b) {
+        return  a - b;
     }
 }
